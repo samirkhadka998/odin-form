@@ -7,3 +7,30 @@
 body{
     background-color: antiquewhite;
 }
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+.container>aside {
+    flex: 1;
+    border: 1px solid red;
+    color: white;
+    background: url('https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80');
+    position: relative;
+}
+
+.container>main {
+    flex: 2;
+    border: 1px solid red;
+
+}
+.container>aside>article {
+    width: 100%;
+    border: 2px solid;
+    position: absolute;
+    text-align: center;
+    /* left: 25vh; */
+    top: 50vh;
+    /* font-size: 20px; */
+}

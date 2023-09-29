@@ -23,7 +23,9 @@ body{
 .container>main {
     flex: 2;
     border: 1px solid red;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .container>aside>article {
     width: 100%;

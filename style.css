@@ -31,11 +31,13 @@ body{
 }
 .container>aside>article {
     width: 100%;
-    border: 2px solid;
+    /* border: 2px solid; */
     position: absolute;
     text-align: center;
     /* left: 25vh; */
-    top: 50vh;
+    top: 46vh;
+    padding: 34px;
+    background: #1c1a1a3d;
     /* font-size: 20px; */
 }
 form>.items {
@@ -86,4 +88,18 @@ form>div:nth-child(2) {
     background: #fff;
     padding: 2% 5%;
     margin: 20px 0;
+}
+
+aside>span {
+    position: absolute;
+    /* font-size: 20px; */
+    bottom: 0;
+    left: 17%;
+}
+
+article>span {
+    font-size: 20px;
+    position: relative;
+    top: -17px;
+    left: 4px;
 }

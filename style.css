@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,16 +6,17 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: #f0f2f5;
 }
 
 .container {
     display: flex;
     height: 100vh;
+    font-family: 'Roboto Slab', Times, serif;
 }
 .container>aside {
     flex: 1;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: white;
     position: relative;
     background: url(img/cutedog.jpg);
@@ -24,7 +25,7 @@ body{
 
 .container>main {
     flex: 1.5;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,6 +52,7 @@ form>.items {
     display: flex;
     flex-direction: column;
     width: 46%;
+    margin: 20px 0;
 }
 main>section:nth-child(1) {
     /* width: 80%; */
@@ -60,16 +62,23 @@ main>section:nth-child(1) {
 }
 form input {
     padding: 5px;
+    font-size: 1.2rem;
+    font-size: 1,2rem;
+}
+
+form input:focus{
+    border: 2px solid green;
 }
 
 form button {
-    background: #3c7a08;
+    background: #010812;
     color: #fff;
     width: 34%;
     padding: 9px;
-    border: 2px solid #3c7a08;
+    border: 2px solid #010d16;
     border-radius: 7px;
     margin: 20px 0;
+    font-size: 1.5rem;
     /* color: red; */
 }
 
@@ -88,6 +97,7 @@ form>div:nth-child(2) {
     background: #fff;
     padding: 2% 5%;
     margin: 20px 0;
+    box-shadow: 6px 3px 9px 1px #99b3db, -1em 0 0.4em #f0f2f5;
 }
 
 aside>span {
@@ -98,8 +108,20 @@ aside>span {
 }
 
 article>span {
-    font-size: 20px;
+    font-size: 2rem;
     position: relative;
-    top: -17px;
+    top: -11px;
     left: 4px;
+    font-family: 'Pacifico', cursive;
 }
+span.login {
+    color: blue;
+}
+.wrapper label {
+    letter-spacing: 3px;
+}
+
+input:focus,input:active{
+    border-color: green !important;
+    transition: border-color .20s ease-in;
+  }

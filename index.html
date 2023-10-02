@@ -27,45 +27,46 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias atque accusantium labore
                 similique veniam. Voluptatem aperiam dolor dolore recusandae dolorum
             </h2><br>
-        <h2>You <em>Know</em> you want to.</h2>
+        <h2>You <em>Know </em> you want to.</h2>
         </section>
             <section>
-                <form action="/">
+                <form id="myForm" action="/index.html">
                     <div class="wrapper">
                         <h1>Let's do this</h1>
                         <div class="items">
                             <div>
-                                <label for="firstName">FIRST NAME</label>
-                                <input type="text" name="firstName" id="firstName">
+                                <label for="firstName">*FIRST NAME</label>
+                                <input required type="text" name="firstName" id="firstName">
                             </div>
                             <div>
-                                <label for="lastName">LAST NAME</label>
-                                <input type="text" name="lastName" id="lastName">
+                                <label for="lastName">*LAST NAME</label>
+                                <input required type="text" name="lastName" id="lastName">
                             </div>
                             <div>
-                                <label for="email">EMAIL</label>
-                                <input type="email" name="email" id="email">
+                                <label for="email">*EMAIL</label>
+                                <input required type="email" name="email" id="email">
                             </div>
                             <div>
                                 <label for="phone">PHONE</label>
-                                <input type="tel" name="phone" id="phone">
+                                <input  type="tel" name="phone" id="phone">
                             </div>
                             <div>
-                                <label for="password">PASSWORD</label>
-                                <input type="tel" name="password" id="password">
+                                <label for="password">*PASSWORD</label>
+                                <input required type="password" name="password" id="password">
+                                <span id="passInfo"></span>
                             </div>
     
                             <div>
-                                <label for="cpassword">CONFIRM PASSWORD</label>
-                                <input type="tel" id="cpassword">
+                                <label for="cpassword">*CONFIRM PASSWORD</label>
+                                <input required type="password" name="cpassword" id="cpassword">
                             </div>
                         </div>
                         
                     </div>
 
                     <div>
-                        <button>Create Account</button>
-                        <label for="">Already have an account? Log In</label>
+                        <button type="submit">Create Account</button>
+                        <label for="">Already have an account? <span class="login">Log In</span></label>
                     </div>
                 </form>
             </section>

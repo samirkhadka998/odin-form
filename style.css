@@ -36,3 +36,128 @@ body{
     top: 50vh;
     /* font-size: 20px; */
 }
+form>.items {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    flex-wrap: wrap;
+}
+
+.items div {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+main>section:nth-child(1) {
+    /* width: 80%; */
+    margin: 0 auto;
+    padding: 0 5%;
+    /* background: #fff; */
+}
+form input {
+    padding: 5px;
+}
+
+form button {
+    background: #3c7a08;
+    color: #fff;
+    width: 34%;
+    padding: 9px;
+    border: 2px solid #3c7a08;
+    border-radius: 7px;
+    margin: 20px 0;
+    /* color: red; */
+}
+
+form .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+.container>aside {
+    flex: 1;
+    border: 1px solid red;
+    color: white;
+    background: url('https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80');
+    position: relative;
+}
+
+.container>main {
+    flex: 1.5;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container>aside>article {
+    width: 100%;
+    border: 2px solid;
+    position: absolute;
+    text-align: center;
+    /* left: 25vh; */
+    top: 50vh;
+    /* font-size: 20px; */
+}
+form>.items {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    flex-wrap: wrap;
+}
+
+.items div {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+main>section:nth-child(1) {
+    /* width: 80%; */
+    margin: 0 auto;
+    padding: 0 5%;
+    /* background: #fff; */
+}
+form input {
+    padding: 5px;
+}
+
+form button {
+    background: #3c7a08;
+    color: #fff;
+    width: 34%;
+    padding: 9px;
+    border: 2px solid #3c7a08;
+    border-radius: 7px;
+    margin: 20px 0;
+    /* color: red; */
+}
+
+form .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}   
+
+form>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+}
+.wrapper {
+    background: #fff;
+    padding: 2% 5%;
+    margin: 20px 0;
+}
